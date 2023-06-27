@@ -1,0 +1,136 @@
+.footer{
+  display: grid;
+  grid-template-rows: 400px 60px;
+  background-color: rgb(48, 159, 217);
+  font-family: 'Poppins';
+}
+
+.upperfooter{
+  margin-left: 12%; 
+  margin-right: 12%; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+}
+
+.logodantulisan{
+  height: 80px;
+  margin-top: 60px;
+}
+
+.usefulllinks{
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.listlistan{
+  font-weight: 500; 
+  margin-left: 15px;
+}
+
+.listlistan1{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.bagian2{
+  margin-left: 25%;
+  margin-right: 25%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bottomfooter{
+  background-color: rgb(54, 65, 107);
+}
+
+.isibottomfooter{
+  margin-left: 12%; 
+  margin-right: 12%; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.copyright{
+  color: white;
+  font-weight: 500;
+}
+
+.iconsocmed{
+  display: grid;
+  grid-template-columns:60px 60px 60px 60px 60px;
+  justify-content: end;
+  margin-top: 5px;
+}
+
+.inputbox{
+  height: 30px;
+  width: 280px;
+  padding-left: 20px;
+  font-family: 'Poppins';
+  border-radius: 20px;
+  border-width: 0px;
+}
+
+.buttonbox{
+  font-family: 'Poppins';
+  color: white;
+  background-color: rgb(54, 65, 107);
+  width: 120px;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;  
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: rgb(48, 160, 224);
+  color: white;
+  border-radius: 200px;
+  border-width: 0px;
+}
+
+.fa-twitter {
+  background: rgb(48, 160, 224);
+  color: white;
+  border-radius: 100px;
+  border-width: 0px;
+}
+
+.fa-linkedin {
+  background: rgb(48, 160, 224);
+  color: white;
+  border-radius: 100px;
+  border-width: 0px;
+}
+
+.fa-skype {
+  background: rgb(48, 160, 224);
+  color: white;
+  border-radius: 100px;
+  border-width: 0px;
+}
+
+.fa-instagram {
+  background: rgb(48, 160, 224);
+  color: white;
+  border-radius: 100px;
+  border-width: 0px;
+}

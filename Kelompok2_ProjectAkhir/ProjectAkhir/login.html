@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+    <!-- FontPoppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    
+    <style>
+      .containerlogin{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 608px;
+      }
+      .logologin{
+        background-color: rgba(54, 65, 107, 1);
+      }
+
+      .logologingambar{
+        margin-left: 28%;
+        margin-top: 30%;
+        width: 325px;
+      }
+      .login11{
+        display: grid;
+        grid-template-rows: 25px 46px 25px 46px 60px 54px 1fr 20px 60px;
+        row-gap: 10px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        margin-left: 20%;
+        margin-right: 30%;
+        font-family: "poppins";
+      }
+      .inputlogin{
+        font-family: "poppins";
+        border-radius: 10px;
+        border: 1px solid;
+        border-color: rgba(79, 141, 243, 1);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        width: 330px;
+      }
+      .tulisanlogin{
+        margin: 0px;
+      }
+      .captcha{
+        display: grid;
+        grid-template-columns: 0.75fr 2fr 1fr;
+        border: 1px solid;
+        border-radius: 10px;
+        border-color: rgba(79, 141, 243, 1);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+      .centang{
+        margin: 18px;
+        height: 25px;
+        width: 25px;
+      }
+      .buttonmasuk{
+        width: 349px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(79, 141, 243, 1);
+        color: white;
+        font-family: "poppins";
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 6px;
+      }
+
+      .buttonmasuk:hover{
+        background-color: rgb(50, 123, 165) ;
+        cursor: pointer;
+      }
+      .highlight{
+        color:rgba(79, 141, 243, 1);
+        font-size: 13px;
+      }
+    </style>
+</head>
+<body>
+  <!-- Container Login -->
+  <div class="containerlogin">
+    <!-- Login -->
+    <div class="login11">
+      <div>
+        <p class="tulisanlogin">
+          Masukkin Email atau Nomor HP
+        </p>
+      </div>
+      <div>
+        <input type="text" placeholder="Ketik salah satu disini" class="inputlogin">
+      </div>
+      <!-- Password -->
+      <div>
+        <p class="tulisanlogin">
+          Kata sandi
+        </p>
+      </div>
+      <div>
+        <input type="password" value="" id="myInput" placeholder="Ketik disini" class="inputlogin">
+      </div>
+      <!-- Captcha -->
+      <div class="captcha">
+        <div>
+          <input class="centang" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        </div>
+        <div>
+          <p style="font-size: 13px; margin-top: 11%;">
+            Saya bukan robot
+          </p>
+        </div>
+        <div>
+          <img src="Assets/captcha.png" alt="" style="width: 40px; margin-top: 12px; margin-left: 30px; ">
+        </div>
+      </div>
+      <div>
+        <a href="index.html">
+          <div>
+            <button class="buttonmasuk">
+              Masuk
+            </button>
+          </div>
+        </a>
+      </div>
+      <div>
+        <img src="Assets/ataumasukdengan.png" alt="" style="width: 349px;">
+      </div>
+      <div>
+        <p style="font-size: 13px;margin: 0px;">
+          Belum punya akun? <a href="register.html" style="text-decoration: none;"><span class="highlight"> Daftar Sekarang </span></a>
+        </p>
+      </div>
+      <div>
+        <p class="tulisanlogin" style="font-size: 13px;text-align: justify;">
+          Dengan masuk atau daftar Edunexa, saya menyetujui <span class="highlight"> Syarat & Ketentuan </span> serta <span class="highlight">Kebijakan Privasi</span> yang berlaku
+        </p>
+      </div>
+    </div>
+    <!-- Logo -->
+    <div class="logologin">
+      <img src="Assets/logologin.png" alt="" class="logologingambar">
+    </div>
+  </div>
+</body>
+</html>

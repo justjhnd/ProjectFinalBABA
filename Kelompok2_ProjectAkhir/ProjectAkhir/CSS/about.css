@@ -1,0 +1,31 @@
+.judulaboutus{
+  font-family: "poppins";
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.bannershort1{
+  background-color: rgb(54, 65, 107);
+  height: 200px;
+  font-family: 'Poppins';
+  align-items: center;
+  display: grid;
+  grid-template-rows: 200px;
+}
+.isianaboutus{
+  display: grid;
+  grid-template-columns: 1.25fr 1fr ;
+  font-family: "poppins";
+  margin-left: 15%;
+  margin-right: 12%;
+}
+.fotoaboutus{
+  width: 473px;
+  margin-top: 2%;
+}
+.tentangkami{
+  display: grid;
+  grid-template-rows: 40px 100px 40px 60px 40px 100px;
+  margin-top: 10%;
+}

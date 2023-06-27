@@ -1,0 +1,48 @@
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  text-align: center;
+}
+
+.logo1 {
+  padding-left: 170px;
+  padding-right: 170px;
+  width: 170px;
+}
+
+.navigationbar {
+  display: grid;
+  grid-template-columns:  100px 100px 100px 100px 100px 100px 100px;
+  align-items: center;
+}
+
+.home {
+  display: inline-block;
+  font-weight: 600;
+  color: rgb(55, 66, 59);
+}
+
+.courses {
+  display: inline-block;
+  font-weight: 700;
+  color: rgb(48, 160, 224);
+}
+
+.namaakun {
+  align-items: center;
+  color: rgb(0, 107, 185);
+  font-weight: 600;
+}
+
+.propic {
+  display: inline-block;
+  height: 60px;
+  border-radius: 100px;
+}
+
+.textmulan{
+  color: rgb(48, 160, 224);
+}
+

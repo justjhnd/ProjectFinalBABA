@@ -1,0 +1,46 @@
+.containerbiologi{
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px ;
+  row-gap: 40px;
+  font-family: "poppins";
+  margin-left: 17%; 
+  margin-right: 17%; 
+  margin-top: 50px; 
+  margin-bottom: 150px;
+}
+.listmateribiologi{
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  background-color: rgba(253, 224, 197, 1);
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.listmateribiologi2{
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  background-color: rgba(255, 242, 173, 1);
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imagemateri{
+  margin-top: 9%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+  width:80px;
+}
+
+.judulmateri{
+  justify-content: center ;
+  font-size: larger;
+  font-weight: 600;
+  color: rgba(54, 65, 107, 1);
+  margin-top: 13%;
+}
+
+.progresspembelajaran{
+  width: 300px;
+  margin-left: 120px;
+  margin-top: 60px;
+}

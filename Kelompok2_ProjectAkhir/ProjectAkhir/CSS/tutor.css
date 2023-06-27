@@ -1,0 +1,105 @@
+.header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    text-align: center;
+  }
+  
+  .logo1 {
+    padding-left: 170px;
+    padding-right: 170px;
+    width: 170px;
+  }
+  
+  .navigationbar {
+    display: grid;
+    grid-template-columns:  100px 100px 100px 100px 100px 100px 100px;
+    align-items: center;
+  }
+  
+  .home {
+    display: inline-block;
+    font-weight: 540;
+    color: rgb(55, 66, 59);
+  }
+  
+  .courses {
+    display: inline-block;
+    font-weight: 640;
+    color: rgb(48, 160, 224);
+  }
+  
+  .namaakun {
+    display: inline-block;
+    align-items: center;
+    color: rgb(0, 107, 185);
+    font-weight: 640;
+  }
+  
+  .propic {
+    display: inline-block;
+    height: 60px;
+    border-radius: 100px;
+  }
+  
+  .textmulan{
+    color: rgb(48, 160, 224);
+  }
+
+    
+  .container-tutor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 1000px;
+    max-height: 1000px;
+    margin-inline: auto;
+    font-family: "poppins";
+}
+
+   .card {
+    display: flex;
+    flex-flow: column;
+    flex: 3 2 250px;
+    margin: 10px;
+    width: 300px;
+    height: 460px;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 0 0;
+    font-family: "Poppins";
+  }
+  
+  .card img{
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+  }
+
+
+  .card .card-body .card-title{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 10px;
+  }
+
+  .card .card-body p{
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .card .card-body .card-text{
+    text-align: justify;
+    margin-left: 8%;
+    margin-right: 8%;
+    color: rgba(170, 170, 170, 1);
+  }
+
+  .card .card-body .social{
+    text-align: center;
+  }
+
+  .supertutor{
+    margin: 0px;
+  }

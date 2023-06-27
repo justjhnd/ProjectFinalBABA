@@ -1,0 +1,119 @@
+.mapelipa{
+  font-family: 'Poppins';
+  margin-left: 12%; 
+  margin-right: 12%; 
+}
+
+.judulmapel{
+  font-weight: bolder;
+  font-size: 25px;
+  color: rgb(54, 65, 107); 
+  margin-top: 50px;
+  margin-bottom: 30px; 
+}
+
+.mapel{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+}
+
+.mapelbahasa{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  margin-bottom: 180px;
+}
+
+.materiipa{
+  background-color: white;
+  height: 380px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fotomapel{
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.deskripsimapel{
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+width: 300px;
+height: 150px;
+}
+
+.ipafree{
+display: grid;
+grid-template-columns: 1fr 2fr;
+}
+
+.tulisanipa{
+text-align: center;
+font-size: small;
+color: white;
+background-color: rgb(230, 91, 46);
+padding: 0px;
+margin: 0px;
+padding-top: 8px;
+padding-bottom: 8px;
+margin-top: 3px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.tulisanips{
+text-align: center;
+font-size: small;
+color: white;
+background-color: rgb(1, 108, 187);
+padding: 0px;
+margin: 0px;
+padding-top: 8px;
+padding-bottom: 8px;
+margin-top: 3px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.tulisanbahasa{
+text-align: center;
+font-size: small;
+color: white;
+background-color: rgb(45, 128, 132);
+padding: 0px;
+margin: 0px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 15px;
+padding-right: 15px;
+margin-top: 3px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.tulisanfree{
+text-align: end;
+font-weight:600;
+color: rgb(55, 66, 59);
+margin-top: 7px;
+margin-right: 20px;
+}
+
+.matematikawajib{
+margin: 0px; 
+margin-left: 20px;
+font-size: large;
+font-weight: 520;
+color: rgb(55, 66, 59);
+}
+
+.desckelas{
+font-size: smaller;
+margin-left: 20px;
+margin-right: 20px;
+text-align: justify;
+color: rgb(119, 119, 119);
+}

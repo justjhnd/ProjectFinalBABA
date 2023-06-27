@@ -1,0 +1,38 @@
+.maincontainer{
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+}
+
+.containerprogress{
+  display: grid;
+  grid-template-rows: 110px 60px;
+  background-color: rgba(253, 224, 197, 1);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.fotojudul{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.fotomutasi{
+  width: 90px;
+  margin-left: 23%;
+  margin-top: 15%;
+}
+
+.judulmutasi{
+  font-family: "poppins";
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 7%;
+  color: rgba(54, 65, 107, 1);
+}
+
+.progress{
+  width: 700px;
+  margin-left: 5%;
+}
+

@@ -1,0 +1,96 @@
+.bannershort1{
+  background-color: rgb(54, 65, 107);
+  height: 180px;
+  font-family: 'Poppins';
+  }
+  .bannerprofile{
+  margin-left: 18%;
+  margin-right: 18%; 
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  height: 180px;
+  }
+  .fotoprofilebanner{
+    width: 120px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 13px;
+  }
+  .deskripsiprofile{
+    color: white;
+    margin-left: 3%;
+  }
+  .username{
+    margin: 0;
+    padding-top: 45px;
+  }
+  .gantiusername{
+    display: grid;
+    grid-template-columns: 135px 50px 150px;
+    margin: 0px;
+  }
+
+  .bagianprofil{
+  display: grid;
+  grid-template-columns: 0.65fr 10px 1.75fr 1fr;
+  margin-left: 15%;
+  margin-right: 12%;
+  margin-top: 30px;
+  font-family: "poppins";
+  }
+  .akunsaya{
+    display: grid;
+    grid-template-rows: 40px 40px 40px 40px 40px ;
+    row-gap: 5px;
+  }
+  .tulisanakunsaya{
+    color: rgba(54, 65, 107, 1);
+  }
+
+  .tulisanakunsaya2{
+    color: rgba(0, 107, 185, 1);
+    font-weight: 500;
+  }
+  .vl {
+  border-left: 2px solid rgba(54, 65, 107, 1);
+  height: 825px;
+  }   
+
+  .boxtambahkursus{
+    background-color: rgba(255, 201, 115, 0.3);
+    width: 260px;
+    height: 160px;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+  .tambahkursus{
+    width: 150px;
+    margin-left: 58px;
+    margin-top: 43px;
+  }
+  .kursussaya{
+    margin-left: 5%;
+    display: grid;
+    grid-template-rows: 50px 250px 250px 250px;
+  }
+  .matematikapeminatanprofil{
+    display: grid;
+    grid-template-rows: 40px 30px 54px 40px 54px
+  }
+  .mtkminat2{
+    display: grid;
+    grid-template-columns: 290px 150px;
+  }
+  .v2 {
+  border-top: 2px solid rgba(54, 65, 107, 1);
+  width: 470px;
+  }   
+  .limittrigonometri{
+    display: grid;
+    grid-template-columns: 60px 410px;
+  }
+  .v3{
+  border-left: 2px solid rgba(54, 65, 107, 1);
+  height: 40px;
+  margin-left: 27.5px;
+  }  

@@ -1,0 +1,283 @@
+.backbutton{
+  border-width: 0px;
+  background-color: white;
+  text-align: left;
+}
+
+.imagebutton{
+  width: 40px;
+  margin-top: 20px;
+}
+
+.line1{
+  font-family: 'Poppins';
+  margin-left: 12%; 
+  margin-right: 12%; 
+  margin-top: 50px;  
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+.indikatorkelas{
+  width: fit-content;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 30px;
+  border-color: rgb(54, 65, 107);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 38px;
+  padding-right: 38px;
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: small;
+}
+
+.indikatorkelas1{
+  width: fit-content;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 30px;
+  border-color: rgb(54, 65, 107);
+  background-color: rgb(54, 65, 107);
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 38px;
+  padding-right: 38px;
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: small;
+}
+.bulletdanjudul{
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  margin-left: 25%;
+  margin-right: 18%;
+  font-family: "poppins";
+  }
+  .tulisanjudul{
+    color: rgba(127, 127, 127, 1);
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .part1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 25%;
+    margin-right: 18%;
+  }
+
+  .part2{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    margin-left:20px;
+  }
+
+  .indikatorsoal{
+    background-color: rgba(102, 185, 145, 1);
+    border-radius: 30px;
+    font-weight: 500;
+    font-family: "poppins";
+    color: white;
+    width: fit-content;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+    margin-top: 10px;
+  }
+
+  .bagi2{
+    display: grid;
+    grid-template-columns: 300px 150px;
+  }
+
+  .bagi2mutasi{
+    font-family: "poppins";
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(56, 56, 56, 1);
+    margin: 0px;
+  }
+  .tickbox{
+    accent-color: rgba(90, 163, 128, 1);
+    border-color: rgba(90, 163, 128, 1);
+    width: 30px;
+    height: 30px;
+    margin-left: 100px;
+  }
+
+  .garispembatas{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 25%;
+    margin-right: 18%;
+  }
+  .garisbatesan{
+    width: 450px;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+  .maincontainer{
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+  }
+  
+  .containerprogress{
+    display: grid;
+    grid-template-rows: 110px 60px;
+    background-color: rgba(253, 224, 197, 1);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .fotojudul{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+  .fotomutasi{
+    width: 90px;
+    margin-left: 23%;
+    margin-top: 15%;
+  }
+  
+  .judulmutasi{
+    font-family: "poppins";
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 7%;
+    color: rgba(54, 65, 107, 1);
+  }
+  
+  .progress{
+    width: 700px;
+    margin-left: 5%;
+  }
+  .mapelipa{
+    font-family: 'Poppins';
+    margin-left: 12%; 
+    margin-right: 12%; 
+  }
+  
+  .judulmapel{
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(54, 65, 107); 
+    margin-top: 50px;
+    margin-bottom: 30px; 
+  }
+  
+  .mapel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+  }
+  
+  .mapelbahasa{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    margin-bottom: 180px;
+  }
+  
+  .materiipa{
+    background-color: white;
+    height: 380px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .fotomapel{
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .deskripsimapel{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 300px;
+  height: 150px;
+  }
+  
+  .ipafree{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  }
+  
+  .tulisanipa{
+  text-align: center;
+  font-size: small;
+  color: white;
+  background-color: rgb(230, 91, 46);
+  padding: 0px;
+  margin: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 3px;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+  
+  .tulisanips{
+  text-align: center;
+  font-size: small;
+  color: white;
+  background-color: rgb(1, 108, 187);
+  padding: 0px;
+  margin: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 3px;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+  
+  .tulisanbahasa{
+  text-align: center;
+  font-size: small;
+  color: white;
+  background-color: rgb(45, 128, 132);
+  padding: 0px;
+  margin: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 3px;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+  
+  .tulisanfree{
+  text-align: end;
+  font-weight:600;
+  color: rgb(55, 66, 59);
+  margin-top: 7px;
+  margin-right: 20px;
+  }
+  
+  .matematikawajib{
+  margin: 0px; 
+  margin-left: 20px;
+  font-size: large;
+  font-weight: 520;
+  color: rgb(55, 66, 59);
+  }
+  
+  .desckelas{
+  font-size: smaller;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  color: rgb(119, 119, 119);
+  }
+  
